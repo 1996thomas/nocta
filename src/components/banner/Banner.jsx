@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
 import Navbar from "../Navbar";
 
 export default function Banner() {
@@ -22,7 +22,7 @@ export default function Banner() {
       transition: {
         duration: 0.8,
         delay: 1.2,
-        ease: [.84,.01,.71,1],
+        ease: [0.84, 0.01, 0.71, 1],
       },
     },
   };
@@ -34,8 +34,6 @@ export default function Banner() {
         alt=""
         className="background"
       />
-      <Navbar/>
-      <h2>NOCTA apparel by Drake</h2>
     </div>
   );
 }

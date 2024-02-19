@@ -9,6 +9,7 @@ import { useRef } from "react";
 import TransitionHome from "../components/TransitionHome.jsx";
 import transition from "../components/Transition.jsx";
 import Presentation from "../components/sections/Presentation.jsx";
+import Navbar from "../components/Navbar.jsx";
 
 const Home = () => {
   const ref = useRef();
@@ -21,6 +22,7 @@ const Home = () => {
     <>
       <TransitionHome />
       <Banner />
+      <Navbar />
       <div className="shop__text">Discover the latest shoes from NOCTA</div>
 
       <motion.div
